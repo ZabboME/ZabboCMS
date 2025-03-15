@@ -1,0 +1,413 @@
+	body {
+		background-color: #e3e3db;
+    background-image: url(https://i.imgur.com/3JOzJTa.png);
+    font-size: 11px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+		font-family: Ubuntu,Arial,serif !important;
+	}
+	input:-webkit-autofill:focus {
+	    -webkit-box-shadow: /*your box-shadow*/,0 0 0 50px white inset;
+	    -webkit-text-fill-color: #333;
+	}
+	.logo {
+		background:url(https://zabbo.me/zabbo-assets/static/images/logo.png);
+		width:215px;
+		height:93px;
+		top:-99px;
+		position:absolute;
+		cursor:pointer;
+		cursor:hand;
+		background-repeat: no-repeat;
+	}
+	.login-box {
+    width: 751px;
+    height: 350px;
+    background: url(https://zabbo.me/zabbo-assets/img/2017.png);
+	background-repeat: no-repeat;
+    background-position: left bottom;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -175px 0 0 -375px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.25),inset 0 0 0 2px rgba(255,255,255,.3);
+}
+	.clouds-box {
+    width: 749px;
+    height: 350px;
+    background: url(https://i.imgur.com/d3QDMFj.png);
+    background-position: right bottom;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -375px;
+    border-radius: 5px;
+}
+	.register-button {
+		padding:20px 45px;
+		position:absolute;
+		background:#3aa600 url(../images/index/two-bg.png) center;
+		font-size:24px;
+		top:75px;
+		left:20px;
+		text-align:center;
+		color:#fff;
+		text-shadow:2px 2px rgba(0,0,0,.4);
+		border-radius:5px;
+		box-shadow:inset 0 0 0 2px rgba(0,0,0,.25);
+		cursor:pointer;
+		cursor:hand;
+}
+	.register-button:hover {
+		background-color:#43b800;
+	}
+	.register-button span {
+		display: block;
+  font-weight: bold;
+}
+	.input {
+		position:absolute;
+		top:9px;
+		height:43px;
+		width:250px;
+		border-radius:4px;
+	}
+ .input[type="text"] {
+  background: #fff url(../img/input-user.gif) 6px 6px no-repeat;
+}
+
+.input[type="password"] {
+  background: #fff url(../img/input-pass.gif) 6px 6px no-repeat;
+}
+
+	input[type="text"],
+	input[type="password"] {
+	height: 36px;
+  line-height: 36px;
+  width: 300px;
+  margin-right: 6px;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  border-radius: 3px;
+  text-indent: 38px;
+}
+	input[type="submit"] {
+  height: 36px;
+  line-height: 36px;
+  float: right;
+  border: 0;
+  outline: 0;
+  width: 110px;
+  border-radius: 3px;
+  background: url(../img/login.png);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  cursor: hand;
+}
+	input[type="submit"]:hover {
+		background-color: #55b5ed;
+	}
+	.users-online {
+		height: 40px;
+  background: white;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  padding: 0 18px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.25);
+  line-height: 40px;
+  font-size: 13px;
+}
+	.users-online span {
+		margin-top:4px;
+		font-weight:bold;
+		display:block;
+		font-size:18px;
+	}
+	 .clouds {
+    height: 100%;
+    width: 100%;
+    z-index: -99999999999;
+    background-image: url(https://i.imgur.com/BWDv7as.png);
+    position: absolute;
+    overflow: hidden;
+    -webkit-animation: slide 90s linear infinite;
+}
+	@-webkit-keyframes "slide" {
+		 from {
+		   background-position: 0 0;
+		 }
+		 to {
+		   background-position: 1140px 0;
+		 }
+	}
+	.login-error {
+		width:100%;
+		text-align:center;
+		height:34px;
+		line-height:34px;
+		background:rgba(255,0,0,.6);
+		position:fixed;
+		top:0;
+		color:#fff;
+		font-weight:bold;
+		font-size:16px;
+	}
+	
+	.HabGoon-input {
+    width: 730px;
+    background: rgba(0,0,0,.3);
+    padding: 10px;
+    height: 36px;
+    border-radius: 5px 5px 0 0;
+}
+
+form {
+		margin:0;
+	}
+	form.login input[type="text"], 
+	form.login input[type="password"] {
+		height:36px;
+		line-height:36px;
+		width:300px;
+		margin-right:6px;
+		border:0;
+		outline:0;
+		padding:0;
+		border-radius:3px;
+		text-indent:38px;
+	}
+	form.login input[type="text"] {
+		background:#fff url(../img/username.gif) 6px 6px no-repeat;
+	}
+	form.login input[type="password"] {
+		background:#fff url(../img/password.gif) 6px 6px no-repeat;
+	}
+	form.login input[type="submit"] {
+		height:36px;
+		line-height:36px;
+		float:right;
+		border:0;
+		outline:0;
+		width:110px;
+		border-radius:3px;
+		background:url(../img/login.png);
+		color:#fff;
+		font-weight:bold;
+		cursor:pointer;
+		cursor:hand;
+	}
+	form.register input[type="text"], 
+	form.register input[type="password"] {
+		height:36px;
+		width:290px;
+		line-height:36px;
+		margin-right:6px;
+		border:0;
+		outline:0;
+		padding:0;
+		border-radius:3px;
+		box-shadow:inset 0 0 0 1px rgba(0,0,0,.25);
+		text-indent:38px;
+	}
+	form.register input[type="text"] {
+		background:#fff url(../images/index/username.gif) 6px 6px no-repeat;
+	}
+	form.register input[type="text"].email {
+		background:#fff url(../images/index/mail.gif) 8px 9px no-repeat;
+	}
+	form.register input[type="password"] {
+		background:#fff url(../images/index/password.gif) 6px 6px no-repeat;
+	}
+	form.register input[type="submit"] {
+		height:36px;
+		line-height:36px;
+		float:right;
+		border:0;
+		outline:0;
+		padding:0 17px;
+		margin-top:10px;
+		border-radius:3px;
+		background:url(../images/index/register.png);
+		color:#fff;
+		font-weight:bold;
+		cursor:pointer;
+		cursor:hand;
+	}
+	
+	.overlay-title {
+  background: #cc7abe url(../img/two-bg.png) center;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  color: #fff;
+  text-indent: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.HabGoon-overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+  position: fixed;
+}
+
+.overlay-box {
+  height: 338px;
+  width: 310px;
+  background: white;
+  top: 50%;
+  left: 50%;
+  margin: -169px 0 0 -155px;
+  position: fixed;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.25);
+}
+
+form.register input[type="text"], 
+	form.register input[type="password"] {
+		height:36px;
+		width:290px;
+		line-height:36px;
+		margin-right:6px;
+		border:0;
+		outline:0;
+		padding:0;
+		border-radius:3px;
+		box-shadow:inset 0 0 0 1px rgba(0,0,0,.25);
+		text-indent:38px;
+	}
+	form.register input[type="text"] {
+		background:#fff url(../img/username.gif) 6px 6px no-repeat;
+	}
+	form.register input[type="text"].email {
+		background:#fff url(../img/mail.gif) 8px 9px no-repeat;
+	}
+	form.register input[type="password"] {
+		background:#fff url(../img/password.gif) 6px 6px no-repeat;
+	}
+	form.register input[type="submit"] {
+		height:36px;
+		line-height:36px;
+		float:right;
+		border:0;
+		outline:0;
+		padding:0 17px;
+		margin-top:10px;
+		border-radius:3px;
+		background:url(../img/register.png);
+		color:#fff;
+		font-weight:bold;
+		cursor:pointer;
+		cursor:hand;
+	}
+	
+.HabGoon-register {
+		padding:20px 45px;
+		position:absolute;
+		background:#cc7abe url(../img/two-bg.png) center;
+		font-size:24px;
+		top:75px;
+		left:20px;
+		text-align:center;
+		color:#fff;
+		text-shadow:2px 2px rgba(0,0,0,.4);
+		border-radius:5px;
+		box-shadow:inset 0 0 0 2px rgba(0,0,0,.25);
+		cursor:pointer;
+		cursor:hand;
+	}
+	.HabGoon-register:hover {
+		background-color:#43b800;
+	}
+	.HabGoon-register span {
+		display:block;
+		font-weight:bold;
+	}
+	.users-online {
+		height:40px;
+		background:white;
+		position:absolute;
+		top:-50px;
+		right:0;
+		padding:0 18px;
+		border-radius:5px;
+		box-shadow:inset 0 0 0 1px rgba(0,0,0,.25);
+		line-height:40px;
+		font-size:13px;
+	}
+	.HabGoon-overlay {
+		height:100%;
+		width:100%;
+		background:rgba(0,0,0,.5);
+		position:fixed;
+	}
+	.overlay-box {
+		height:338px;
+		width:310px;
+		background:white;
+		top:50%;
+		left:50%;
+		margin:-169px 0 0 -155px;
+		position:fixed;
+		border-radius:5px;
+		box-shadow:0 0 0 2px rgba(0,0,0,.25);
+	}
+	.overlay-title {
+		background:#cc7abe url(../img/two-bg.png) center;
+		height:34px;
+		line-height:34px;
+		border-radius:3px;
+		color:#fff;
+		text-indent:10px;
+		margin-bottom:10px;
+		font-size:13px;
+		font-weight:bold;
+	}
+	.padding {
+		padding:10px;
+	}
+	.input-div {
+		border-top:1px dashed #b3b3b3;
+		border-bottom:1px dashed #b3b3b3;
+		padding:10px 0;
+		margin-bottom:-1px;
+	}
+	.close-overlay {
+		height:36px;
+		line-height:36px;
+		float:left;
+		border:0;
+		outline:0;
+		padding:0 17px;
+		margin-top:10px;
+		border-radius:3px;
+		background:url(../img/close.png);
+		color:#fff;
+		font-weight:bold;
+		cursor:pointer;
+		cursor:hand;
+		font-size:13px;
+	}
+	
+.image-box1 {
+    width: 749px;
+    height: 350px;
+    background: url(https://i.imgur.com/a485p3V.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 657px;
+    left: 371px;
+    margin-top: -175px;
+    margin-left: -375px;
+    border-radius: 5px;
+}

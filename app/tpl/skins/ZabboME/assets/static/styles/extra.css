@@ -1,0 +1,94 @@
+.alert{padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:4px;}.alert h4{margin-top:0;color:inherit;}.alert .alert-link{font-weight:bold;}.alert>p,.alert>ul{margin-bottom:0;}.alert>p+p{margin-top:5px;}.alert-dismissable{padding-right:35px;}.alert-dismissable .close{position:relative;top:-2px;right:-21px;color:inherit;}.alert-success{color:#468847;background-color:#dff0d8;border-color:#d6e9c6;}.alert-success hr{border-top-color:#c9e2b3;}.alert-success .alert-link{color:#356635;}.alert-info{color:#3a87ad;background-color:#d9edf7;border-color:#bce8f1;}.alert-info hr{border-top-color:#a6e1ec;}.alert-info .alert-link{color:#2d6987;}.alert-warning{color:#c09853;background-color:#fcf8e3;border-color:#fbeed5;}.alert-warning hr{border-top-color:#f8e5be;}.alert-warning .alert-link{color:#a47e3c;}.alert-danger{color:#b94a48;background-color:#f2dede;border-color:#eed3d7;}.alert-danger hr{border-top-color:#e6c1c7;}.alert-danger .alert-link{color:#953b39;}
+
+.today-in-rage {
+  color:#000;
+  list-style-type:none;
+  margin:0;padding:0
+}
+.today-in-rage li {
+  color:#000;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:20px
+}
+
+.form-new-control {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  height: 35px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #555;
+  border-radius: 3px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.23),inset 0 0 0 2px #fff,0 2px 0 rgba(0,0,0,0.1);
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+}
+
+.new-label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.disable-block{height:120px;background-image:url('../../v2/images/disable-block.png');text-decoration:none!important;background-color:darkred;width:761px;-webkit-border-radius:2px;-moz-border-radius:4px;border-radius:4px;box-shadow:0 0 0 3px rgba(0,0,0,0.09),inset 0 0 0 2px rgb(244,244,244);background-position:right;width:-100px;margin-bottom:10px}.disable-block-title{font-family:'Ubuntu';font-weight:500;color:#fff;margin:0;font-size:24px;text-shadow:0 2px rgba(0,0,0,0.32);position:absolute;margin-top:15px;margin-left:20px}.disable-block-desc{font-family:'Ubuntu';color:#fff;margin:0;font-size:16px;text-shadow:0 2px rgba(0,0,0,0.32);position:absolute;margin-top:50px;margin-left:20px;text-align:left;width:710px}
+
+.label {
+display: inline;
+padding: .2em .6em .3em;
+font-size: 10px;
+font-weight: bold;
+line-height: 1;
+color: #FFF;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+}
+
+.label-success {
+background-color: #5CB85C;
+}
+
+.userprofile-bio-container {
+background-color: #ECECEC;
+padding: 6px;
+margin-right: 10px;
+border-radius: 4px;
+max-width: 223px;
+overflow: hidden;
+color: #585858;
+font-size: 13px;
+}
+
+.badge-container-wrap {
+width: 58.5px;
+height: 58.5px;
+float: left;
+}
+
+.badge-container {
+background-color: #E9E9E9;
+border: 1px solid #A8A8A8;
+box-shadow: inset 0 0 8px 1px #C0C0C0;
+border-radius: 4px;
+width: 52px;
+height: 52px;
+overflow: hidden;
+}
+
+.badge-image {
+text-align: center;
+padding-top: 6px;
+}
+
+span.post-list-message-time {
+    color: #787878;
+    font-size: 10px;
+}
+
+span.post-list-message-edited {
+	font-weight: bold;
+}

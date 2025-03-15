@@ -1,0 +1,152 @@
+#error,
+.button {
+    text-align: center
+}
+body {
+    font-family: Ubuntu, sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+    display: block;
+    color: #fff;
+    background-image: url(../../v2/images/index/background.png);
+    margin: 0
+}
+#container,
+#container-reg {
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    position: fixed
+}
+#container {
+    margin-top: -100px
+}
+#container-reg {
+    margin-top: -200px
+}
+#hotel {
+    background-image: url(../../v2/images/index/hotel.png);
+    width: 500px;
+    height: 501px;
+    background-repeat: no-repeat;
+    margin-top: -200px;
+    margin-left: -106px
+}
+#box,
+#error {
+    width: 270px
+}
+#box {
+    background-color: #002534;
+    border: 1px solid #fff;
+    padding: 10px 10px 43px;
+    margin-top: -220px;
+    margin-bottom: 10px;
+    border-radius: 5px
+}
+#error {
+    padding: 10px;
+    background-color: #b00049;
+    margin-bottom: -230px;
+    border-radius: 3px
+}
+.input,
+.input-captcha {
+    font-weight: 700;
+    color: #002534;
+    padding: 5px;
+    background-color: #eaeaea;
+    margin-bottom: 5px
+}
+#logo {
+    background-image: url(../../v2/images/logo_r.png);
+    width: 219px;
+    height: 58px;
+    margin-top: -3px
+}
+#online {
+    float: right;
+    margin-top: -30px
+}
+#form {
+    margin-top: 10px
+}
+.input {
+    width: 250px;
+    border-radius: 5px
+}
+.input,
+.input-captcha {
+    border: 3px solid #005d80
+}
+.input-captcha {
+    width: 175px;
+    border-radius: 5px
+}
+::-webkit-input-placeholder {
+    color: #002534
+}
+:-moz-placeholder {
+    color: #002534
+}
+::-moz-placeholder {
+    color: #002534
+}
+:-ms-input-placeholder {
+    color: #002534
+}
+.button {
+    display: inline-block;
+    color: #fff!important;
+    padding: 6px 12px!important;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 1px rgba(0, 0, 0, .3);
+    line-height: 1;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 3px;
+    font-size: 11px;
+    text-shadow: 0 1px #333;
+    font-weight: 700;
+    margin-right: 5px
+}
+.login {
+    background-color: #00813e;
+    border-color: #8eda55;
+    float: right
+}
+.login:hover {
+    background-color: #00ab54;
+    border-color: #b9f373
+}
+.register {
+    background-color: #c6165f;
+    border-color: #f57aad;
+    float: left
+}
+.register:hover {
+    background-color: #d45087;
+    border-color: #f89dc2
+}
+#footer {
+    width: 270px;
+    background-color: #002534;
+    border: 1px solid #fff;
+    padding: 10px;
+    height: 28px
+}
+#footertext {
+    float: left;
+    line-height: 28px
+}
+#facebook {
+    background-image: url(../../v2/images/index/facebook.png);
+    float: right;
+    width: 28px;
+    height: 28px
+}
+#facebook:hover {
+    background-image: url(../../v2/images/index/facebook-hover.png)
+}

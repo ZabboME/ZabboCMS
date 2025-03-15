@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, #client {
+	height: 100%;
+	text-align: left;
+	background-color: #000;
+}
+
+#client {
+	background: url(../images/PNG/background.png?1546777258);
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.client-error {
+	max-width: 480px;
+}
+.client-error-title {
+	text-align: center;
+}
+h1, h2, h3, h4, h6 {
+    color: #fff;
+    font-family: "Ubuntu Condensed","Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+    font-weight: 400;
+    margin: .6em 0;
+    line-height: 1.2;
+}
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+p {
+    margin: .75em 0;
+}
+
+#clienterror	{
+	
+	font-size: 16px;
+	margin: 0 auto;
+	margin: 0 auto;
+    max-width: 350px;
+    background-color: rgba(45, 104, 128, 0.75);
+    border: 2px solid white;
+    margin-top: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 15px;
+    display: block;
+    height: 225px;
+}

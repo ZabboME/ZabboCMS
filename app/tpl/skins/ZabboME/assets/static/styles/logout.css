@@ -1,0 +1,14 @@
+div.account_logout {
+    height: 26px;
+    line-height: 30px;
+    width: 30px;
+    background: #cc0404 url(../../v2/images/close_icon.png);
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+    border: 2px solid #630303;
+    border-bottom: none;
+}
+div.account_logout:hover {
+	background-color:#fc0505;
+	cursor:pointer;
+}

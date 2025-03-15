@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.menu {
+    position: fixed;
+    bottom: 45px;
+    right: 630px;
+    z-index: 1005!important;
+    color: #FFF;
+    cursor: pointer;
+}
+ 
+.button {
+	float: left;
+	margin-right: 3px;
+	padding: 3px;
+ }
+ 
+.provip {
+	background: url(../client/tab_vip.png) no-repeat;
+	width: 52px;
+	height: 24px;
+	float: left;
+	margin-right: 3px;
+	padding: 4px 0px 0px;
+ }
+ 
+.lottery {
+	background: url(../client/tab_lottery.png) no-repeat;
+	width: 64px;
+	height: 24px;
+	float: left;
+	margin-right: 3px;
+	padding: 4px 0px 0px;
+ }
+ 
+.diamonds {
+	background: url(../client/tab_diamonds.png) no-repeat;
+	width: 94px;
+	height: 24px;
+	float: left;
+	margin-right: 3px;
+	padding: 4px 0px 0px;
+ }
+ 
+@font-face {
+	font-family: Ubuntu-C;
+	src: url(../client/Ubuntu-C.ttf);
+ }
+ 
+
+a {
+	font-family: Ubuntu-C;
+	font-size: 12px;
+	color: #fff;
+ }
+ 
+ a:hover {
+	font-family: Ubuntu-C;
+	font-size: 12px;
+	color: #fff;
+	text-decoration: underline;
+ }
+ 
+	a:visited {text-decoration: none;}
+ 
+html.js_on #menu {display: none;}

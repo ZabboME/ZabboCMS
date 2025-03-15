@@ -1,0 +1,2 @@
+$(document).ready(function(){$("#home-anchor").css({"background-position-x":"475px"});$("#registration-anchor").css({"background-position-x":"676px"});$(".button").mousedown(function(){$(this).addClass("button-active")});$(".button").mouseup(function(){$(this).removeClass("button-active")});$(".button").mouseleave(function(){$(this).removeClass("button-active")
+})});

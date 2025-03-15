@@ -1,0 +1,83 @@
+# Helicon Ape version 3.1.0.148
+
+RewriteEngine On
+
+RewriteRule ^(index/novote)$ index.php?url=index
+RewriteRule ^(|/)$ index.php?url=$1
+RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ index.php?url=$1
+RewriteEngine on
+RewriteRule ^(.*)\.htm$ $1.php [NC]
+RewriteRule ^client/eng$ index.php?url=client&client=ENG
+RewriteRule ^client/eng/x4b$ index.php?url=client&client=ENG&proxy=x4b
+RewriteRule ^client/pgs$ index.php?url=client&client=PGL
+RewriteRule ^client/trk$ index.php?url=client&client=TRK
+RewriteRule ^(|/)$ dash.php?page=$1
+RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ dash.php?url=$1
+RewriteRule ^(community/staff)$ staff
+RewriteRule ^staff/([a-zA-Z0-9_-]+)(|/)$ index.php?url=staff&rank=$1
+RewriteRule ^home/([a-zA-Z0-9_-]+)(|/)$ index.php?url=home&user=$1
+RewriteRule ^habbo-imaging/badge/([^/]+) /habbo-imaging/badge.php?badge=$1
+RewriteRule ^habbo-imaging/head/([^/]+) /habbo-imaging/head.php?figure=$1
+RewriteRule ^(store/silver)$ index.php?url=silver
+RewriteRule ^(store/gold)$ index.php?url=gold
+RewriteRule ^(store/diamond)$ index.php?url=diamond
+RewriteRule ^(store/currency)$ index.php?url=currency
+RewriteRule ^(event/team)$ index.php?url=event
+RewriteRule ^(news/([a-zA-Z0-9_-]+)/delete/([a-zA-Z0-9_-]+)(|/))$ index.php?url=news&amp;id&amp;deleteid={R:1}
+RewriteRule ^(home/([a-zA-Z0-9_-]+)(|/))$ index.php?url=home&amp;user={R:1}
+RewriteRule ^(news/([a-zA-Z0-9_-]+)(|/))$ index.php?url=news&amp;id={R:1}
+RewriteRule ^(community/leaderboards(|/))$ index.php?url=topstats
+RewriteRule ^me/voted$ index.php?url=me&voted=1
+RewriteRule ^me/voted$ me.php?voted=1
+RewriteRule ^account/verify$ index.php?url=pinverify
+RewriteRule ^account/newpin$ index.php?url=pinnew
+RewriteRule ^vipleaderboards$ index.php?url=vipleaderboards
+
+# BEGIN Firewall Bypass Prevention
+<If "%{HTTP_HOST} == 'zabbo.me' || %{HTTP_HOST} == 'www.zabbo.me'>
+Require ip 208.109.0.0/22
+Require ip 192.88.134.0/23
+Require ip 185.93.228.0/22
+Require ip 2a02:fe80::/29
+Require ip 66.248.200.0/22
+</If>
+# END Firewall Bypass Prevention 
+
+<FilesMatch ".*">
+    Order deny,allow
+    Deny from all
+    Allow from 192.88.134.0/23
+    Allow from 185.93.228.0/22
+    Allow from 2a02:fe80::/29
+    Allow from 66.248.200.0/22
+    Allow from 208.109.0.0/22
+	Allow from 199.27.128.0/21
+	Allow from 173.245.48.0/20
+	Allow from 103.21.244.0/22
+	Allow from 103.22.200.0/22
+	Allow from 103.31.4.0/22
+	Allow from 141.101.64.0/18
+	Allow from 108.162.192.0/18
+	Allow from 190.93.240.0/20
+	Allow from 188.114.96.0/20
+	Allow from 197.234.240.0/22
+	Allow from 198.41.128.0/17
+	Allow from 162.158.0.0/15
+	Allow from 104.16.0.0/12
+	Allow from 172.64.0.0/13
+	Allow from 2400:cb00::/32
+	Allow from 2405:8100::/32
+	Allow from 2405:b500::/32
+	Allow from 2606:4700::/32
+	Allow from 2803:f800::/32
+	Allow from 2c0f:f248::/32
+	Allow from 2a06:98c0::/29
+</FilesMatch>
+<Files "xmlrpc.php">
+Order Allow,Deny
+deny from all
+</Files>
+
+
+
+

@@ -1,0 +1,109 @@
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 0;
+    width: 83px;
+    height: 22px;
+    margin: 0px 0px 0px 0px;
+    background: transparent;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-ms-track {
+    width: 6px;
+    height: 13px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+#radio-box {
+	position: relative;
+	margin-right: 200px;
+	margin-top: -10px;
+	padding-top: 10px;
+	float: right;
+	width: 186px;
+	height: 79px;
+	background-color: rgba(36, 35, 30, 0.6);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 2px solid rgba(174, 174, 174, 0.4);
+	z-index:9999;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 80%;
+}
+#radio-box:after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+	border: 1px solid rgba(0,0,0,0.5);
+    -webkit-border-radius: 4px;
+    z-index: -1;
+}
+.avatar {
+	float: left;
+}
+.name {
+	color: white;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+.mini {
+	color: white;
+	margin-top: 4px;
+	margin-right: 4px;
+	width: 11px;
+	height: 11px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border: 1px solid white;
+	float: right;
+	cursor: pointer;
+}
+.current {
+	color: white;
+	margin-top: 6px;
+	margin-right: 4px;
+	width: 118px;
+	height: 17px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 2px solid rgba(174, 174, 174, 0.4);
+	float: right;
+	padding: 2px;
+}
+.play {
+	color: white;
+    margin-top: 15px;
+    margin-right: 6px;
+    width: 21px;
+    height: 21px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 2px solid rgba(174, 174, 174, 1);
+    float: right;
+    cursor: pointer;
+}
+.volume {
+	color: white;
+	margin-top: 15px;
+	margin-right: 4px;
+	width: 91px;
+	height: 21px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 2px solid rgba(174, 174, 174, 0.4);
+	float: right;
+}
+
+.w3-animate-opacity {-webkit-animation:opac 0s;animation:opac 50s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.w3-animate-zoom {animation:animatezoom 7s;-webkit-animation-delay: 0s; animation-duration: 16s;}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}

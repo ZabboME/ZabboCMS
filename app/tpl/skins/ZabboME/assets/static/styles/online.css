@@ -1,0 +1,132 @@
+.user {
+position:relative;
+height:47px;
+float:left;
+width:120px;
+width:120px;
+border-radius:4px;
+margin-right:4px;
+margin-bottom:4px;
+color:#FFF;
+font-family:Ubuntu;
+font-weight:700;
+line-height:45px;
+text-shadow:0 1px 0 rgba(0,0,0,0.4);
+transition:0 .25s;
+padding:0 10px 0 54px;
+font-family: Verdana;
+}
+
+.user.default {
+    border: 1px solid #4D4D4D;
+    border-bottom: 2px solid #4D4D4D;
+    background: #595959;
+    box-shadow: inset 0px 0px 0px 2px #FFF;
+}
+
+.user.default:hover {
+    background: #808080;
+    box-shadow: inset 0px 0px 0px 2px #808080;
+}
+
+.user.owner {
+border:1px solid #000;
+border-bottom:2px solid #000;
+background:#B50000;
+box-shadow:inset 0 0 0 2px #D64242;
+}
+
+.user.owner:hover {
+background:#900808;
+box-shadow:inset 0 0 0 2px #D36767;
+}
+
+.user.manager {
+border:1px solid #000;
+border-bottom:2px solid #000;
+background:#595959;
+box-shadow:inset 0 0 0 2px #4AB501;
+}
+
+.user.manager:hover {
+background:#808080;
+box-shadow:inset 0 0 0 2px #83B262;
+}
+
+.user.mod {
+border:1px solid #000;
+border-bottom:2px solid #000;
+background:#595959;
+box-shadow:inset 0 0 0 2px #3795B6;
+}
+
+.user.mod:hover {
+background:#808080;
+box-shadow:inset 0 0 0 2px #5E9FB5;
+}
+
+.user.events {
+border:1px solid #000;
+border-bottom:2px solid #000;
+background:#595959;
+box-shadow:inset 0 0 0 2px #A67A3E;
+}
+
+.user.events:hover {
+background:#808080;
+box-shadow:inset 0 0 0 2px #A58861;
+}
+
+.user>.head {
+height:62px;
+width:65px;
+left:0;
+margin-top:-10px;
+position:absolute;
+background-repeat:no-repeat;
+}
+
+.navi {
+height:40px;
+background:#201E19;
+border:2px solid #2C2924;
+color:#FFF;
+border-radius:4px;
+font-family:Ubuntu;
+font-weight:700;
+line-height:37px;
+text-align:center;
+width:95%;
+position:relative;
+cursor:pointer;
+margin-bottom:3px;
+}
+
+.arrow {
+right:-20px;
+top:50%;
+margin-top:-10px;
+position:absolute;
+border-color:transparent transparent transparent #201E19;
+border-style:solid;
+border-width:10px;
+}
+
+.userprofile {
+position:absolute;
+height:150px;
+float:left;
+display:none;
+border:1px solid #3C3C3C;
+border-top:0;
+width:100%;
+left:0;
+background:#E2E2E2;
+border-radius:0 0 3px 3px;
+box-shadow:inset 0 -4px 0 0 rgba(0,0,0,0.2);
+z-index:99999999;
+}
+
+#avatar {
+height:110px;
+}

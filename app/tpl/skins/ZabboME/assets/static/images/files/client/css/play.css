@@ -1,0 +1,5 @@
+#topbar{padding-top:3px;padding-bottom:4px;height:30px;width:100%;background:#333333;color:#FFFFFF;font-family:Verdana,Geneva,sans-serif;font-size:11px;background-image:url(../../images/tbar.png);text-shadow: 0.15em 0.15em 0em #666666;}
+#text{padding-top:8px;margin:0;float:left;}
+#right{float:right;margin:0;margin-top:4px;height:17px;}
+#right a{color:#FFFFFF;text-decoration:none;}
+#right a:hover{text-decoration:underline;}

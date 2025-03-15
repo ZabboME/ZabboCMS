@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, #client {
+	height: 100%;
+	text-align: left;
+	background-color: #000;
+}
+
+#client {
+	position: absolute;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+habbo-client-closed .client-error__background-frank,
+habbo-client-error .client-error__background-frank {
+  background-image: url(https://images.habbo.com/habbo-web/america/en/assets/images/backgrounds/flash_error_bg.57539aa2.png);
+  display: block;
+  height: 368px;
+  padding: 80px 17px 35px 242px;
+  position: relative;
+  width: 639px;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__text-contents,
+habbo-client-error .client-error__background-frank .client-error__text-contents {
+  height: 253px;
+  position: absolute;
+  text-align: left;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__text-contents .client-error__title,
+habbo-client-error .client-error__background-frank .client-error__text-contents .client-error__title {
+  text-align: left;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div {
+  bottom: 30px;
+  float: right;
+  position: absolute;
+  right: 30px;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button {
+  display: inline-block;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #ffb900;
+  border-color: #ffea00;
+  color: #000;
+  border-radius: 5px 0 0 5px;
+  border-width: 2px 1px 2px 2px;
+  border-style: solid;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+  margin-right: 20px;
+  margin-top: -3px;
+  padding: 6px 12px 6px 24px;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button:active,
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button:hover,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button:active,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button:hover,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button:hover {
+  background-color: #ffd400;
+  border-color: #fffd70;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button:hover:after,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button:hover:after {
+  border-color: transparent transparent transparent #ffd400;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button h5,
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button h6,
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button p,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button h5,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button h6,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button p {
+  font-size: 16px;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button:before,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button:before {
+  border-width: 21px;
+  top: -2px;
+  border-color: transparent transparent transparent #ffea00;
+  right: -43px;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button:after,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button:after {
+  border-width: 19px;
+  top: 0;
+  border-color: transparent transparent transparent #ffb900;
+  right: -38px;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button:after,
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button:before,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button:after,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button:before {
+  border-style: solid;
+  position: absolute;
+  display: block;
+  content: '';
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button .hotel-button__text,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button .hotel-button__text {
+  position: relative;
+  padding-right: 27px;
+  text-align: right;
+  line-height: 26px;
+}
+
+habbo-client-closed .client-error__background-frank .client-error__hotel-button-div .hotel-button .hotel-button__text:before,
+habbo-client-error .client-error__background-frank .client-error__hotel-button-div .hotel-button .hotel-button__text:before {
+  background-image: url(https://images.habbo.com/habbo-web/america/en/assets/images/sprite.541175ea.png);
+  background-position: -242px -434px;
+  width: 21px;
+  height: 26px;
+  content: '';
+  display: block;
+  margin-top: -13px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}

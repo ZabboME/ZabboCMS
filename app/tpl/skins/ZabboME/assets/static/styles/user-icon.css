@@ -1,0 +1,562 @@
+#inner {
+    width: 90%;
+    margin: 0 auto;
+}
+.user-icon-wrapper {
+    float: left;
+    margin-right: 7px;
+    clear: both;
+    text-align: center;
+    width: 75px;
+    height: 80px;
+}
+.user-icon-holder {
+    width: 68px;
+    height: 68px;
+    border: 1px
+solid black;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 2px 2px 11px rgba(102, 102, 102, 0.48);
+    background: #FFF;
+}
+.user-icon-onlinewrapper {
+    float: left;
+    width: 68px;
+    height: 70px;
+    margin-right: 7px;
+    clear: both;
+    text-align: center;
+}
+.user-icon-sparkle {
+    background-image: url('../../v2/images/online/oifag.gif');
+    width: 64px;
+    height: 64px;
+}
+.user-icon-avatar {
+    position: relative;
+    width: 60px;
+    height: 82px;
+    overflow: hidden;
+    border: 0px;
+    float: left;
+    margin-top: -16px;
+}
+.user-icon-blue {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px 0px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon- {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px 0px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-grey {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px 0px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-system {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -264px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-comet {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px 0px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-hotelview {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -66px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-lobby {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -132px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-redcarp {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -198px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-snowmount {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -198px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-tropical1 {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -264px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-greentrees {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -330px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-tropical2 {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -264px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-cmd {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -66px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-bluecountry {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px 0px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-citybuildings {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -66px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-park {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -132px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-snowforest {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -198px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-snownight {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -198px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-waterstream {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -330px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-underwater {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -264px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-jungle {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -66px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-outback {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -132px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-pyramids {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -132px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-dock {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -330px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-redlines {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -330px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-dock {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -330px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-rooftopcafe {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -396px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-trees {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -396px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-ambulance {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -396px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-earth {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -396px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-beach {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -462px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-spotlight {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -462px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-bluetiles {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -462px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-wired {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -462px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-western1 {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -529px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-western2 {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -529px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-fansiterep {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -529px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-sunshine {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -529px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-redstaff {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: 0px -595px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-moonshine {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -66px -595px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-tropical3 {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -132px -595px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-tropical4 {
+    background-image: url('../../v2/images/online/oicunt.png');
+    background-position: -198px -595px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.user-icon-custom-jungle12 {
+    background-image: url('../../v2/images/online/jungle.png');
+    background-position: 0px 0px;
+    border: 1px
+solid white;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+/*/*/

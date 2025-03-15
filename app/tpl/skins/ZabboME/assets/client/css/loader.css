@@ -1,0 +1,95 @@
+body {
+     background-attachment: fixed;
+     background-image: -moz-linear-gradient(135deg, #15507c, #0c3a65);
+     background-image: -o-linear-gradient(135deg, #15507c, #0c3a65);
+     background-image: -webkit-linear-gradient(135deg, #15507c, #0c3a65);
+     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #15507c), color-stop(1, #0c3a65));
+     filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=#15507c, EndColorStr=#0c3a65)";
+     background-image: linear-gradient(135deg, #15507c, #0c3a65);
+     background-repeat: no-repeat;
+     line-height: 1.4;
+     margin: 0;
+}
+ html,body.flashclient{
+    height:100%;
+}
+body{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    overflow:hidden;
+}
+#client{
+    width:100%;
+    height:100%;
+}
+#loadingpage{
+    background-image:url('');
+    -webkit-transition:all 1s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+    width:100%;
+    height:100%;
+}
+#load{
+    -moz-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    transition:all 1s ease-in-out;
+}
+.start-1{
+    font-family:'Oleo Script',Helvetica,sans-serif;
+    color:white;
+    font-size:100px;
+    margin-top:200px;
+}
+#img1{
+    margin-top:200px;
+}
+#img2{
+    height:40px;
+    margin-top:20px;
+}
+#font1{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    font-family:Ubuntu;
+}
+.container{
+    width:900px;
+    margin:auto;
+}
+.box{
+    background-color:white;
+    color:#555;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border:#c2c1c1 1px solid;
+    border-bottom:#c2c1c1 2px solid;
+    overflow:hidden;
+}
+.padding{
+    padding:10px;
+}
+.contentTitle{
+    margin-top:10px;
+    height:25px;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    padding:10px 11px 0px 11px;
+    -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,.25);
+    box-shadow:inset 0 0 0 1px rgba(0,0,0,.25);
+    border-radius:5px 5px 0 0;
+    background:url('/assets/skins/Hxbbo/client/loader/contentheader_gradient.png'),url('/assets/skins/Hxbbo/client/loader/aero.png');
+    background-position:left bottom,right bottom;
+    background-repeat:repeat,no-repeat;
+    background-color:#3498db;
+}
+.contentTitle.rainbow{
+    background:url('/assets/skins/Hxbbo/client/loader/contentheader_gradient.png'),url('/assets/skins/Hxbbo/client/loader/aero.png'),linear-gradient(to right,#3498db,#31C431,#e74c3c,#cc7abe);
+    background-position:left bottom,right bottom;
+    background-repeat:repeat,no-repeat;
+}
+ 

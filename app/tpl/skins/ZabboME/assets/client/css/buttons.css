@@ -1,0 +1,129 @@
+.btn-success:hover {
+    border-color: #000; 
+}
+
+input[type="submit"]:not(.btn),
+.btn,
+.btn-default{
+    color: #000;
+    outline: none;
+    border: none;
+    padding: 3px;
+    margin: 0px;
+    border-radius: 4px;
+    border-width: 2px 2px 3px 2px;
+    border-color: #000;
+    border-style: solid;
+    min-width: 50px;
+    font-weight: bold;
+    font-family: Ubuntu;
+    font-size: 12px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #F3F3F3 50%, #d9d9d9 50%);
+    box-shadow: inset 0 0 0px 2px #d9d9d9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-shadow:none;
+}
+
+input[type="submit"]:not(.btn):hover,
+.btn:hover,
+.btn-default:hover
+{
+    color: #000;
+    background: linear-gradient(to bottom, #ffffff 50%, #EBEBEB 50%);
+    box-shadow: inset 0 0 0px 2px #ffffff;
+}
+
+input[type="submit"]:not(.btn):active,
+.btn:active,
+.btn-default:active
+{
+    color: #000;
+    background: linear-gradient(to bottom, #E1E1E1 50%, #A3A3A3 50%);
+    box-shadow: inset 0 0 0px 2px #A3A3A3;
+}
+
+input[type="submit"]:not(.btn) {
+    display: block;
+    width: 100%;
+    color: #000;
+
+}
+
+a.btn {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-success:active {
+    background: linear-gradient(to bottom, #539800 50%, #017901 50%) !important;
+    box-shadow: inset 0 0 0px 2px #017901 !important;
+}
+
+.btn-success:hover {
+    background: linear-gradient(to bottom, #70c700 50%, #009700 50%) !important;
+    box-shadow: inset 0 0 0px 2px #009700 !important;
+}
+
+.btn-success{
+    background: linear-gradient(to bottom, #5aa600 50%, #007a00 50%) !important;
+    box-shadow: inset 0 0 0px 2px #007a00;
+    color: #fff !important;
+}
+
+a.btn-success {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.btn-danger
+{
+    background: linear-gradient(to bottom, #eb3700 50%, #a31f00 50%) !important;
+    box-shadow: inset 0 0 0px 2px #a31f00 !important;
+    color: #fff !important;
+}
+
+.btn-danger:hover
+{
+    background: linear-gradient(to bottom, #ff5420 50%, #d04c2e 50%) !important;
+    box-shadow: inset 0 0 0px 2px #ff5420 !important;
+}
+
+.btn-danger:active
+{
+    background: linear-gradient(to bottom, #c12d00 50%, #8a1a00 50%) !important;
+    box-shadow: inset 0 0 0px 2px #8a1a00 !important;
+}
+
+a.btn-danger {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.confirm.btn.btn-primary,
+.cancel.btn.btn-default {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: #000;
+}
+
+
+.confirm.btn.btn-danger {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

@@ -1,0 +1,184 @@
+
+.playerbox,[class~=messagebox]{
+    border-left-color:rgba(255,255,255,.2);
+    border-bottom-color:rgba(255,255,255,.2);
+    border-right-color:rgba(255,255,255,.2);
+    border-top-color:rgba(255,255,255,.2);
+    right:0;
+    position:absolute;
+    z-index:5;
+    box-sizing:border-box
+}
+.playerbox #radioPlayer{
+    margin-top: 14px;
+}
+.playerbox input[type=range]{
+    -webkit-appearance:none!important;
+    width:122px!important;
+    margin:6px 0 0 .625pc!important
+}
+
+.playerbox{
+    background-color:rgba(40,40,40,.65);
+    top:0;
+    height: 5.1125pc;
+    width:127.5pt;
+    border-radius:0 0 3.75pt .052083333in;
+    border-left-style:solid;
+    border-width:0 .125pc .020833333in .020833333in
+}
+
+[class~=playerbox] #toggler{
+    margin-left:0;
+    margin-top:0
+}
+
+.playerbox input[type=range]{
+    height:.125pc!important;
+    background:0 0!important
+}
+[class~=playerbox] #toggler{
+    display:block;
+    float:left;
+    width:.75pc;
+    height:11.25pt;
+    cursor:pointer
+}
+
+.playerbox input[type=range]{
+    background-color:#424242!important;
+    float:left!important
+}
+
+[class~=playerbox] input[type=range]:focus{
+    outline:0
+}
+[class~=messagebox] [class~=messagetitle]{
+    font-family:tahoma;
+    font-size:.8125pc;
+    font-weight:700;
+    color:#fff;
+    text-shadow:.010416667in .0625pc 0 rgba(0,0,0,.3)
+}
+
+[class~=playerbox] input[type=range]::-webkit-slider-runnable-track{
+    width:1.270833333in!important;
+    height:.1875pc!important;
+    cursor:pointer!important;
+    animate:.2s!important;
+    background-color:#424242!important
+}
+
+
+[class~=playerbox] input[type=range]::-webkit-slider-thumb{
+    height:6.75pt!important;
+    width:.625pc!important;
+    background-color:#8f8f8f!important;
+    cursor:pointer!important;
+    -webkit-appearance:none!important;
+    margin-top:-3px!important
+}
+
+
+.playerbox{
+    border-bottom-style:solid;
+    border-right-style:solid;
+    border-top-style:solid;
+    margin-right:12.4375pc;
+    float:right;
+    -webkit-box-shadow:0 .020833333in 0 0 rgba(0,0,0,.7),1px 0 0 0 rgba(0,0,0,.7),-1px 0 0 0 rgba(0,0,0,.7);
+    -moz-box-shadow:0 .020833333in 0 0 rgba(0,0,0,.7),1px 0 0 0 rgba(0,0,0,.7),-1px 0 0 0 rgba(0,0,0,.7);
+    box-shadow:0 2px 0 0 rgba(0,0,0,.7),1px 0 0 0 rgba(0,0,0,.7),-1px 0 0 0 rgba(0,0,0,.7);
+    padding:3px;
+}
+[class~=playerbox] input[type=range]::-moz-range-track{
+    width:1.270833333in!important
+}
+
+[class~=playerbox] input[type=range]::-moz-range-track{
+    height:.03125in!important;
+    cursor:pointer!important;
+    animate:.2s!important;
+    background-color:#424242!important;
+    border-radius:.08125pc
+}
+
+
+[class~=playerbox] input[type=range]::-moz-range-thumb{
+    height:.09375in!important;
+    width:.104166667in!important;
+    background-color:#8f8f8f!important;
+    cursor:pointer!important;
+    margin-top:-3px!important
+}
+
+
+[class~=messagebox] [class~=messagedesc]{
+    font-family:tahoma;
+    font-size:.6875pc;
+    color:#fff;
+    text-shadow:.010416667in 1px 0 rgba(0,0,0,.3)
+}
+
+[class~=playerbox] input[type=range]::-ms-track{
+    width:91.5pt!important;
+    height:3px!important;
+    cursor:pointer!important
+}
+[class~=messagebox]{
+    background-color:rgba(40,40,40,.65);
+    width:10.625pc;
+    border-radius:3.75pt .3125pc .3125pc .052083333in;
+    border-width:1.5pt
+}
+
+[class~=playerbox] input[type=range]::-ms-track{
+    animate:.2s!important;
+    background:#424242!important;
+    color:transparent;
+    border-color:transparent!important
+}
+[class~=playerbox] input[type=range]::-ms-thumb{
+    height:9px!important;
+    width:7.5pt!important;
+    background-color:#8f8f8f!important;
+    cursor:pointer!important;
+    margin-top:-.03125in!important
+}
+[class~=messagebox]{
+    margin-top:4.6875pc;
+    margin-right:12.4375pc;
+    float:right;
+    padding:3.75pt 3.75pt 5.25pt .072916667in;
+    -webkit-box-shadow:0 .020833333in 0 0 rgba(0,0,0,.7),0 0 0 .75pt rgba(0,0,0,.7),-1px 0 0 0 rgba(0,0,0,.7),0 -1px 0 0 rgba(0,0,0,.7);
+    -moz-box-shadow:0 2px 0 0 rgba(0,0,0,.7),0 0 0 1px rgba(0,0,0,.7),-1px 0 0 0 rgba(0,0,0,.7),0 -1px 0 0 rgba(0,0,0,.7);
+    box-shadow:0 .020833333in 0 0 rgba(0,0,0,.7),0 0 0 .0625pc rgba(0,0,0,.7),-1px 0 0 0 rgba(0,0,0,.7),0 -.010416667in 0 0 rgba(0,0,0,.7);
+    display:none;
+    border-style:solid
+}
+i.fa.fa-pause:hover {
+    cursor: pointer;
+}
+i.fa.fa-play:hover {
+    cursor: pointer;
+}
+i.fa.fa-volume-down:hover {
+    cursor: pointer;
+}
+i.fa.fa-volume-up:hover {
+    cursor: pointer;
+}
+#requestHeader{top:0;font-family:varela round,sans-serif;color:#fff;text-align:center;font-size:30px;letter-spacing:-1px;margin-top:50px;margin-left:-10px}
+#requestField{width:300px;margin-left:70px;padding-top:10px;text-align:center}
+#requestField input,select,textarea{width:95%;height:40px;padding-left:6px;margin-bottom:8px;background-color:rgba(169,169,169,.2);border:none;border-radius:4px}
+#requestField input{padding-left:10px!important;color:#fff;font-family:varela round,sans-serif}#requestField input::placeholder{color:#e5e5e5;font-family:varela round,sans-serif}
+#requestField option,select,textarea{color:#e5e5e5;font-family:varela round,sans-serif}
+#requestField textarea{width:95%;padding-left:10px;padding-top:6px;height:80px;resize:none;font-family:varela round,sans-serif}
+#requestField textarea::placeholder{color:#e5e5e5;font-family:varela round,sans-serif}
+#requestField select{width:95%}
+#requestField option:disabled{color:graytext;font-family:varela round,sans-serif;background-color:rgba(169,169,169,.2)}
+#requestField option{background-color:#0000;color:#000}button{width:95%!important;height:45px!important;background-color:rgba(169,169,169,.2);border:0;border-radius:4px;color:#ffff!important;font-family:varela round,sans-serif;box-shadow:0 3px 5px rgba(0,0,0,.3)}
+#rqSuccess p{font-family:varela round,sans-serif;color:#fff;letter-spacing:-1px;font-size:20px;text-align:center}
+#modulecontainer{width:100%;height:100%;position:absolute;margin-top:-9px;margin-left:-9px;z-index:1000;background-color:rgba(169,169,169,.2)}.fade{animation:fadeInOut 2s linear forwards}.fade2{animation:fadeInOut 1s linear forwards}@keyframes fadeInOut{0%{opacity:0}100%{opacity:1}}
+#moduleEsc,#moduleEsc2{left:0;cursor:pointer;position:absolute;top:0;width:75px;z-index:100000;font-family:segoe ui,Tahoma,Geneva,Verdana,sans-serif;height:20px;font-size:15px;color:#fff}
+#requestDiv{width:400px;height:490px;background-color:rgba(169,169,169,.02);left:0;right:0;top:0;bottom:0;margin:auto;position:absolute;z-index:10000}

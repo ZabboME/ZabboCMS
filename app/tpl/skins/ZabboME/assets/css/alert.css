@@ -1,0 +1,59 @@
+.materialert{
+    position: relative;
+    min-width: 150px;
+    padding: 15px;
+    margin-top: -10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.1s linear;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    -webkit-box-align: center;
+    align-items: center;
+}
+.materialert a, .materialert.wrong a {
+	color: #000;
+	text-decoration: none;
+}
+.materialert a:hover, .materialert.wrong a:hover {
+	color: #2f2f2f;
+	text-decoration: underline;
+}
+.materialert .material-icons{
+    margin-right: 10px;
+}
+.materialert .close-alert{
+    -webkit-appearance: none;
+    border: 0;
+    cursor: pointer;
+    color: inherit;
+    background: 0 0;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
+    filter: alpha(opacity=40);
+    margin-bottom: -5px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+.materialert.info{
+    background-color: #374a5b;
+    color: #fff;
+}
+.materialert.correct{
+    background-color: #82af85;
+    color: #fff;
+}
+.materialert.wrong{
+    background-color: #c78181;
+    color: #fff;
+}
+.materialert.danger{
+    background-color: #c62828;
+    color: #fff;
+}
+.materialert.warning{
+    background-color: #fbc02d;
+	color: #fff;
+	}

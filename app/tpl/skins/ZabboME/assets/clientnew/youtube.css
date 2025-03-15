@@ -1,0 +1,214 @@
+#music-box{
+    font-family:Ubuntu,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    z-index:9;
+    width:490px;
+    height:45px;
+    background-color: #0e0e0e;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: inset 2px 2px #3d3d3d, inset -2px -2px #3d3d3d, inset 2px -2px #3d3d3d, inset -2px 2px #3d3d3d;
+    color:#eee;
+    padding:2px;
+    position:absolute;
+    top:5px;
+    right: 200px;
+    margin-left:-250px;
+    display:-ms-flexbox;
+    display:flex;
+    opacity:.5;
+}
+#music-box:hover{
+    opacity:1
+}
+#jukebox{
+    width:420px;
+    height:100%;
+    padding-left:10px;
+    -ms-flex-negative:0;
+    flex-shrink:0
+}
+#jukebox,#jukebox-songs{
+    display:-ms-flexbox;
+    display:flex
+}
+#jukebox-songs{
+    -ms-flex:1;
+    flex:1;
+    overflow:hidden;
+    margin-right:20px;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -ms-flex-direction:column;
+    flex-direction:column
+}
+#jukebox-current{
+    color:#e67e22;
+	font-weight: bold;
+    white-space:nowrap;
+    font-size: 14px;
+    line-height: 1;
+}
+#jukebox-next{
+    font-size:12px;
+    color:#eee;
+    white-space:nowrap;
+}
+#jukebox-next .value{
+    color:#eee
+}
+#jukebox-controls{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    padding-right:20px
+}
+#jukebox-play{
+    cursor:pointer
+}
+#jukebox-play:hover{
+    color:#fff
+}
+#jukebox-volume{
+    margin-left:10px;
+    -webkit-appearance:none;
+    background:0 0;
+    width:100px
+}
+#jukebox-volume:focus{
+    outline:none
+}
+#jukebox-volume::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    height:20px;
+    width:8px;
+    border-radius:3px;
+    background:#5d5d5d;
+    cursor:pointer;
+    border:1px solid #000;
+    margin-top:-6px
+}
+#jukebox-volume::-moz-range-thumb{
+    height:20px;
+    width:8px;
+    border-radius:3px;
+    background:#5d5d5d;
+    cursor:pointer;
+    border:1px solid #000;
+    margin-top:-6px
+}
+#jukebox-volume::-ms-thumb{
+    height:20px;
+    width:8px;
+    border-radius:3px;
+    background:#5d5d5d;
+    cursor:pointer;
+    border:1px solid #000;
+    margin-top:-6px
+}
+#jukebox input[type=range]::-webkit-slider-runnable-track{
+    height:6px;
+    cursor:pointer;
+    background:#d6d6d6;
+    border-radius:4px
+}
+#jukebox input[type=range]::-moz-range-track{
+    height:6px;
+    cursor:pointer;
+    background:#d6d6d6;
+    border-radius:4px
+}
+#jukebox input[type=range]::-ms-track{
+    height:6px;
+    cursor:pointer;
+    background:#d6d6d6;
+    border-radius:4px
+}
+#music-box .jb-divider{
+    width:1px;
+    height:100%;
+    background-color:#3b3b3b;
+}
+#jukebox-tv-toggle{
+    width:60px;
+    cursor:pointer;
+    background:url(./img/jukebox-tv-toggle.png?v) 50% no-repeat;
+    margin:3px;
+    border-radius:3px
+}
+#jukebox-tv-toggle:hover{
+    background-color:hsla(0,0%,100%,.2)
+}
+#jukebox-player-wrapper{
+    background-image:url(./img/jukebox-tv.png?v);
+    width:432px;
+    height:307px;
+    position:absolute;
+    top:65px;
+    right:205px
+}
+#jukebox-player-wrapper #jukebox-drag-bar{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:22px
+}
+#jukebox-player-wrapper #jukebox-tv-overlay{
+    background-image:url(./img/jukebox-tv.png);
+    width:432px;
+    height:307px;
+    position:absolute;
+    z-index:10;
+    pointer-events:none
+}
+#jukebox-player-wrapper #jukebox-player{
+    position:absolute;
+    top:22px;
+    left:12px;
+    z-index:11
+}
+#jukebox-player-wrapper.ui-draggable-dragging #jukebox-player{
+    pointer-events:none
+}
+#jukebox-add{
+    width:400px;
+    margin-left:-205px
+}
+#jukebox-add .body{
+    padding:10px
+}
+#jukebox-add .jb-info{
+    margin-bottom:10px
+}
+#jukebox-add .text-box{
+    width:100%;
+    padding:8px
+}
+#jukebox-add #jukebox-queue-song-button{
+    margin-top:6px;
+    width:100%;
+    text-align:center
+}
+
+#flash-container,
+body {}
+
+#client-ui {}
+
+#flash-container {
+    bottom: 0
+}
+
+#embed-topbar {
+    background: #2196f33b none;
+    height: 35px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 12
+}

@@ -1,0 +1,136 @@
+////////////////////////////////////////////////////////////////////////
+   # � Kryptos - RevCMS - Release 1.0.0			              
+   # � Jontycat(PHP) & Predict(CSS) - ZapASE (Housekeeping)          ||
+|| # � Pure - Parts of RevCMS inspired of some snippets from him     ||	
+|| # � RastaLulz - Helping me                                        ||		                                                          
+   # � Meth0d - Snippets			        	       
+|| # � TheHabbos.ORG - TheHabbos.ORG API - Release 1.0.0 (BETA 2)    ||  
+///////////////////////////////////////////////////////////////////////
+
+Thank you http://DevBest.com - Best forum eva && RevCMS' Home.
+
+Installation progress:
+//NOTE: Mostly guided for XAMPP users, but other users that don't use XAMPP will get what I mean with everything- dey b smart
+//NOTE: This CMS works with IIS, since URL Rewrite can convert .htaccess to web.config - Look up how to.
+
+	1.- Extract all the files of RevCMS.zip to htdocs.
+	2.- Make a column called 'seckey' VARCHAR(999) in the table named 'users' from your PhoenixDB in your PHPMyAdmin.
+	3.- Go to app/management and open config.php, here there will appear a list of vars commented so you know what they're for.
+	4.- Fill the information asked in config.php.
+        5.- Go to thehabbos_api/README.txt file, read that and follow the instructions.
+	6.- Now you're pretty much set to go, all you have to do now is register and then make yourself(You, the owner of the hotel) admin via PHPMyAdmin or whatever you use to handle your database.
+	7.- Make yourself admin by going to the table named 'users' (no quotes) and edit your character's 'rank' to 7, 8, 9, 10, etc, etc.
+		Really, it depends on what Emulator you're using, you shall pick the highest rank.
+	7.- Now, the CMS is all set up! What is left to do is set up your emulator(If you haven't already).
+	
+	Explanation on how to code on the CMS and make add-ons and different skins for it:
+
+	NOTE: It takes no PHP knowledge to make a template, so have fun! But if you're afraid, make a copy of your working RevCMS - in case something 	goes wrong! ;)
+			
+	General information:
+			
+			RevCMS is a dynamic(To an extent) Content Management System, but really it is nothing special. 
+		All dynamic stuff, or stuff you can edit easily are on the 'app/management/config.php' file, it has around 20 stuff you can 		edit.
+		
+		Such as MySQL information, Hotel name, the amount of credits users start with, motto users start with TheHabbos.ORG's implementation(Can be easily set up in config.php, feel free to also go to 'app/management/thehabbos_api' and 		learn 		more about it), Social Networking implementation and an option to pick the style you would like to use(This is where it 		gets good.)
+	
+	Template information:
+	
+		RevCMS has a way to choose which template you would like to use, as of now RevCMS has 2 templates that come as default with the 				CMS, what I wanted to accomplish here is that people do their own styles, since Habbo Retros are loosing originality with the same template 		in every one of them, as it happens with PhoenixPHP/PhoenixCF.
+		
+		I have worked to make it very easy to do your own template, and I will try to explain it the best I can in the following big wall of text.
+		
+		//START OF BORING INFORMATION FOR PHP CODERS
+		
+		You might notice that there are only 3 files in the main directory:
+		
+		- api.php - It's only there because of TheHabbos.ORG's API.
+		
+		- global.php - It's what calls all the classes and interfaces and coverts them into objects for use within the CMS.
+		
+		- index.php - It's where your template comes to life, from there all pages are called and are showed up to the user with a very 		              		sleek technique.
+		
+		//END OF BORING INFORMATION FOR PHP CODERS
+				
+		So, where do you start. Go to 'app/tpl/skins/' - This is where all the skins are as folders, such as 'Mango'.
+		
+		If you want to create a template you must create a new folder inside the 'skins' folder and name it as you want.
+		NOTE: The name of the folder is the name of your template
+		
+		From there you just have to create files, although there are some ground-rules that you must follow and some explanations I must give you.
+		
+		1.- All files in the main directory of your template(i.e: app/tpl/skins/Mango/) must be .php files, but those files will have for the most part HTML code. Another thing is that these files only contain content INSIDE the <body> tags, so inside these files must not have <html>, <head> or <body> tags.
+		
+		2.- Remember that if you create a file in the main folder called for example: login.php, you will have to access it by going on your browser to: 'http://mysite.com/login', yeah, without the .php at the end of the URL! 
+			
+			NOTE: This means that if you want to create register.php, you have to create a file named 'register.php' in your template's main directory, thus not being able to do files such as: head-register.php, form-register.php, etc.
+		
+		3.- The .css files must be in a folder called 'styles' inside your template's main directory(i.e: app/tpl/skins/Mango/styles/).
+			
+		4.- The .js file(s) must all go in a folder called 'js' in your template's main directory(i.e: app/tpl/skins/Mango/js/).
+		
+		5.- Your images can go wherever you want them to be, only rule is that it must be inside your template's main directory.
+		(For the sake of organization!).
+		
+		6.- To create your own housekeeping, you must create a folder called 'hk' in your template's main directory.
+			
+			Here you will have to follow the rules of steps: 1, 2, 3, 4 and 5. 
+											
+		7.- Now, to finish this off: Go to app/management/ and open config.php! Here edit:
+		
+								$_CONFIG['template']['style'] = 'Mango';
+																		\
+			TO:															 Examples
+																		/
+								$_CONFIG['template']['style'] = 'TheNameOfMyFolderIn-app/tpl/skins/';
+								
+		
+		These (ABOVE) are the steps you MUST know to make your own template/skin. 
+		
+		Now you're ready to create your own template for RevCMS - Good luck.
+		
+		
+		If you need any help, or have any questions, PM me on http://devbest.com or reply to the release thread you download this from.
+
+		
+		TOOLS YOU CAN USE IN YOUR TEMPLATE:
+
+{username} - Username of user
+{motto} - Motto of user
+{email} - Email of user
+{coins} - Amount of credits of user
+{activitypoints} - Amount of pixels of user
+{sso}
+{figure} - Figure the user has
+
+{hotelName} - Name of hotel
+{hotelDesc} - Description of hotel
+{url} - URL of hotel
+
+{newsList} - List of all articles besides the one you're viewing
+{newsTitle} - Title of the article
+{newsAuthor} - Author of the article
+{newsContent} - Article
+{newsDate} - When the article was created
+
+{newsTitle-1} - The title of the last article made
+{newsCaption-1} - The 'short_text' of the last article made
+{newsIMG-1} - The topstory of the last article made
+
+{newsTitle-2} - The title of the penultimate article made
+{newsCaption-2} - The 'short_text' of the penultimate article made
+{newsIMG-2} - The topstory of the penultimate article made
+
+And so on until:
+{newsIMG-5} - The topstory of the '5th last' article made
+
+{web_build} - Web build to use
+
+{SWFs_related_stuff} - like 2 more, not gonna mention.
+
+EXAMPLE OF USING THE TOOLS:
+
+<div class='message'>
+	Your username is {username}
+</div>
+

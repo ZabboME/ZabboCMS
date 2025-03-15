@@ -1,0 +1,54 @@
+[08/06/2013 4:19 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+mc_gross=10.00, protection_eligibility=Eligible, address_status=confirmed, payer_id=BXV9DPCLW62JW, tax=0.00, address_street=23
+mill road, payment_date=04:19:08 Aug 06, 2013 PDT, payment_status=Completed, charset=windows-1252, address_zip=LU5 5BD, first_name=magdelana, mc_fee=0.69, address_country_code=GB, address_name=Mafia Madness, notify_version=3.7, custom=Leon, payer_status=verified, business=mexicanlouis@gmail.com, address_country=United Kingdom, address_city=houghton regis, quantity=1, verify_sign=AVfSQ5PLCwiNa3zy.rOy.Na-EbloAWb8Dx-gm2DGHRWr-qwnjOE0F0kG, payer_email=maggieflissikowski@hotmail.co.uk, txn_id=3WC039441B319124W, payment_type=instant, payer_business_name=Mafia Madness, last_name=flissikowski, address_state=Bedfordshire, receiver_email=mexicanlouis@gmail.com, payment_fee=0.69, receiver_id=WB94QFQ7J9DQY, txn_type=web_accept, item_name=Wabbo Tokens, mc_currency=USD, item_number=100, residence_country=GB, handling_amount=0.00, transaction_subject=Leon, payment_gross=10.00, shipping=0.00, ipn_track_id=1c099f65eedf6, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=14400
+Strict-Transport-Security: max-age=14400
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Tue, 06 Aug 2013 11:19:17 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=3sQKpRi2k-1pa_AA7z6g75jvHjjNpLtDdDTqb-pkSTA3xNaDmWrQWjQb-XGTlsQprcjoPEgIfxJZ98vVDN4EA7NjEIvQdBxpt600BjaFs2NJhdgw4zV1n6X-GdcIcVyvp3BYLiib19qLvE9EXulIIVNrRkdxIOTRc40RdyWcuGFu-ruQJzvFLArfg6GnuZu20no75BOzN9u-rYXo-1lVcPWRqB3_eabHjRv02EgYIRBwRqjPQ3OA2B_qSDrimid6V-LHoq4Bu7F5T3WlYQFr5keX_q0WpjDZy-hN5ji1auYQ2MbpDHTjr-71nYuWChasps88yu70M7KmvBvTZXTeBSi6ytPHV8XD5HivQlxEo27iHuc75t1gVC2RB1iOl4EQRRiQcdZmetwi0kyW7YPQGQ4AR44v0oaybHA0q_GauKawuZTgOghfpTRKIOy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 04-Aug-2023 11:19:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 01-Aug-2033 11:19:17 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1375787957529932; path=/; expires=Thu, 30-Jul-43 11:19:17 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3051028562; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.66.1375787957522465; path=/; expires=Thu, 30-Jul-43 11:19:17 GMT
+Set-Cookie: DC=slc-a-origin-www-2.paypal.com; secure
+Set-Cookie: aksession=1375788257~id=cookie2xIuN5qp+zFovotxBdEOu0a+vROIkJfp8RES+Ang7+mDb2SXtRxVJyUYhbUBL1NE7X82OQB1qf+hu3OkgLLK8U+r5TDRsRpzNC2O9mUVFAsBvDYDdcN4Cd7ZwOR0N4EyHeC70lW0Cco=; expires=Tue, 06-Aug-2013 11:24:17 GMT; path=/; domain=.paypal.com
+
+VERIFIED
+
+[08/06/2013 6:02 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+mc_gross=10.00, protection_eligibility=Eligible, address_status=confirmed, payer_id=BXV9DPCLW62JW, tax=0.00, address_street=23
+mill road, payment_date=06:02:30 Aug 06, 2013 PDT, payment_status=Completed, charset=windows-1252, address_zip=LU5 5BD, first_name=magdelana, mc_fee=0.69, address_country_code=GB, address_name=Mafia Madness, notify_version=3.7, custom=Leon, payer_status=verified, business=mexicanlouis@gmail.com, address_country=United Kingdom, address_city=houghton regis, quantity=1, verify_sign=ARyNDMbKwa-zLx7AtfPa-etrhyTVAoNzbeZfzl58Sf-Eh1wfcdQUplcI, payer_email=maggieflissikowski@hotmail.co.uk, txn_id=3LV381191T417132P, payment_type=instant, payer_business_name=Mafia Madness, last_name=flissikowski, address_state=Bedfordshire, receiver_email=mexicanlouis@gmail.com, payment_fee=0.69, receiver_id=WB94QFQ7J9DQY, txn_type=web_accept, item_name=Wabbo Tokens, mc_currency=USD, item_number=100, residence_country=GB, handling_amount=0.00, transaction_subject=Leon, payment_gross=10.00, shipping=0.00, ipn_track_id=87d872ab44a19, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=14400
+Strict-Transport-Security: max-age=14400
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Tue, 06 Aug 2013 13:02:33 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=LP5B_izvXX5ze2uq0wJJLLlKhV5VZlryXceXTWV0KavMbO5L8LBRe50TgqZhGnc7QVNdtVwoBm8RV6arl-22SgQYHFf46flJ955mGDR8VjKq1mgAggK4dRcnmefv83mQQL6XcrzCp2r0B5q8rDGhIsB3m7XyeAIduKzIWzCY98pwjs2hnc2KiS3Kp-6DBPhDK_15FnkSfodeRRXWMk8sBxm13bBz8W3HrJeJO9om2G2vYRdyRsm8ZYz2QxrfK218XbGBgbCoKt4fI15DSYTqgi8KMF1GN5xIf3zcG-wESy2iDjRWIYCvsWeUl59lIQ6iWiSp04xHFedtZeIUw5dEfaeRxOV7mx8gnMGhqOTdAvRrYrqmO8NEmOhnm6vwy8LIaD7ImYGtLUj3vWeYK23Wnt-sClnMMyQf48Vn0aQjdgHe7sn1wk1-QZBUdU4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 04-Aug-2023 13:02:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Mon, 01-Aug-2033 13:02:33 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.137.1375794153541111; path=/; expires=Thu, 30-Jul-43 13:02:33 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3925016658; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.48.1375794153533405; path=/; expires=Thu, 30-Jul-43 13:02:33 GMT
+Set-Cookie: DC=slc-b-origin-www-1.paypal.com; secure
+Set-Cookie: aksession=1375794453~id=cookieHw8ezpdFkDJylSc2OpBKdxsKsYVlNhS68w7f/BufzyQKzYfmbOCGONlbKH2P40mg4VLfHpmcDpkQy5Ss5txvz3S4PNMXNcuP+/DzxIJjdYa4hp+KFejh8c4foPUt8oP2Wnup5jH0U5g=; expires=Tue, 06-Aug-2013 13:07:33 GMT; path=/; domain=.paypal.com
+
+VERIFIED
+
