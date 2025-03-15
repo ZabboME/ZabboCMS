@@ -419,8 +419,6 @@ table {
 </style>
 
 <body data-gr-c-s-loaded="true" id="Zabbo" style="overflow-x:hidden">
-<div class="alert alert-success mb-0 text-center" style="border-radius: 0 !important; margin: 0;"><p class="mb-0">You can access Zabbo Hotel with your <b>Old Account</b> from last year to play!</p></div>
-
 <div class="container-fluid header">
 <div class="container">
 <div class="row">
