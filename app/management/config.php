@@ -101,6 +101,7 @@ $_CONFIG['api']['link'] = 'https://ext.habzone.lol'; /*/ Your Hotel API Link 'ht
 ## Cloudflare Turnstile Captcha Site Key Management ##
 ## https://www.cloudflare.com/en-gb/application-services/products/turnstile/
 $_CONFIG['cloudflare']['sitekey'] = '0x4AAAAAAAOU_rtN4t2yzpeg'; /*/ Cloudflare Turnstile Captcha Site Key Example '0x4AAAAAAAOU_rtN4t2yzpeg' /*/
+$_CONFIG['cloudflare']['secretkey'] = '0x4AAAAAAAOU_k5oqfqhT9zpEgtKCWaCtCc'; /*/ Cloudflare Turnstile Captcha Secret Key Example '0x4AAAAAAAOU_k5oqfqhT9zpEgtKCWaCtCc' /*/
 
 ## TinyCloud HK News Post API Key Management ##
 ## Make an account on https://www.tiny.cloud/auth/signup/ or if you already have one go to https://www.tiny.cloud/auth/login/ and then 

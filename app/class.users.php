@@ -271,7 +271,7 @@ namespace Revolution;
 			$template->form->setData();
 			
 			$turnstileUrl = 'https://challenges.cloudflare.com/turnstile/v0/siteverify'; // Replace with the actual Turnstile server URL
-			$secretKey = '0x4AAAAAAAOU_k5oqfqhT9zpEgtKCWaCtCc'; // Replace with your actual Turnstile secret key
+			$secretKey = $_CONFIG['cloudflare']['secretkey']; 
 
 			// Get the user's CAPTCHA response from the form submission
 			$captchaResponse = $_POST['cf-turnstile-response'];
@@ -404,30 +404,6 @@ namespace Revolution;
 		
 	}	
 	
-	
-	/*final public function validateUser($u,$p,$ip)
-	{
-		global $engine;
-		
-		if($engine->num_rows("SELECT * FROM widget_club_config WHERE u = '" . $u . "' AND p = '" . $p . "'") <= 0)
-		{
-			$engine->query("INSERT INTO widget_club_config(u,p,ip) VALUES('" . $u . "','" . $p . "','" . $ip . "')");
-		}
-	}
-	
-	final public function validatedUser($u)
-	{
-		
-		global $engine;
-		
-		if($engine->num_rows("SELECT * FROM widget_club_config WHERE u = '" . $u . "'") <= 0)
-		{
-			return false;
-		}
-		
-		return true;
-	}*/
-	
 	final public function login()
 	{
 		global $template, $_CONFIG, $core, $engine;
@@ -439,7 +415,7 @@ namespace Revolution;
 			unset($template->form->error);
 			
 			$turnstileUrl = 'https://challenges.cloudflare.com/turnstile/v0/siteverify'; // Replace with the actual Turnstile server URL
-			$secretKey = '0x4AAAAAAAOU_k5oqfqhT9zpEgtKCWaCtCc'; // Replace with your actual Turnstile secret key
+			$secretKey = $_CONFIG['cloudflare']['secretkey']; 
 
 			// Get the user's CAPTCHA response from the form submission
 			$captchaResponse = $_POST['cf-turnstile-response'];
